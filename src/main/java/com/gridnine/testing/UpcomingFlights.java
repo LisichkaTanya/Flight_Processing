@@ -3,12 +3,11 @@ package com.gridnine.testing;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
- * This class represents a filter that outputs upcoming flights to the console,
+ * This class represents a filter that returns upcoming flights,
  * i.e. flights up to the current time are excluded.
- * (Этот класс представляет фильтр, который выводит в консоль предстоящие полеты,
+ * (Этот класс представляет фильтр, который возвращает предстоящие полеты,
  * то есть полеты до текущего времени исключены)
  */
 public class UpcomingFlights implements Filter {

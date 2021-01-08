@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This class represents a filter that outputs to the console flights
+ * This class represents a filter that returns flights
  * in which the total time spent on the ground does not exceed two hours.
- * (Этот класс представляет фильтр, который выводит в консоль полёты, в которых
+ * (Этот класс представляет фильтр, который возвращает полёты, в которых
  * общее время, проведённое на земле не превышает два часа)
  */
 

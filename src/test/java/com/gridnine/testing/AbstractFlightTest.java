@@ -1,5 +1,8 @@
 package com.gridnine.testing;
 
+import org.junit.Before;
+import org.junit.Test;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,5 +31,10 @@ public abstract class AbstractFlightTest {
 
     protected AbstractFlightTest(Filter filterTest) {
         this.filterTest = filterTest;
+    }
+
+    @Test
+    public void filter() {
+        filterTest.filter(flights);
     }
 }

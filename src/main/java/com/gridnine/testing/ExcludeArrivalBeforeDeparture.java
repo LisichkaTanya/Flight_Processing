@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This class represents a filter that displays flights in the console
- * that exclude flights with segments with an arrival date earlier than the departure date.
- * (Этот класс представляет фильтр, который выводит в консоль полёты,
- * в которых исключены полёты с сегментами с датой прилёта раньше даты вылета)
+ * This class represents a filter that returns flights
+ * that exclude flights with an arrival date earlier than the departure date.
+ * (Этот класс представляет фильтр, который возвращает полёты,
+ * в которых исключены полёты с датой прилёта раньше даты вылета)
  */
 public class ExcludeArrivalBeforeDeparture implements Filter {
     @Override
