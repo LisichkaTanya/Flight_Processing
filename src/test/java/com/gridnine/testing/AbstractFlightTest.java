@@ -33,8 +33,4 @@ public abstract class AbstractFlightTest {
         this.filterTest = filterTest;
     }
 
-    @Test
-    public void filter() {
-        filterTest.filter(flights);
-    }
 }

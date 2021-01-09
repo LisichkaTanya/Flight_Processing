@@ -16,7 +16,7 @@ public class ExcludeTransferMoreTwoHours implements Filter {
 
     @Override
     public List<Flight> filter(List<Flight> flightList) {
-        System.out.println("Полёты, в которых общее время, проведённое на земле не превышает два часа: ");
+        System.out.println("Полёты, в которых общее время, проведённое на земле, не превышает два часа: ");
         List<Flight> list = new ArrayList<>();
         flightList.forEach(flight -> {
             int size = flight.getSegments().size();
